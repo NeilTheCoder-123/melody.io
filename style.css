@@ -1,0 +1,28 @@
+#details{
+    background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);
+    padding: 0px 3px 1px 3px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 38px black;
+}
+
+#details:hover{
+    background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);
+}
+
+canvas{
+    border: 10px solid rgb(0, 255, 234);
+    border-radius: 10px;
+    box-shadow: 5px 5px 38px rgb(0, 255, 234);
+    margin-top: -30px;
+}
+
+.bg_vid{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+}
+
